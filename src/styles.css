@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/*start page*/
+.start--page {
+    text-align: center;
+}
+
+.start--elems {
+    margin-top: calc(50% + 30px);
+
+}
+
+.title {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 37px;
+    color: #293264;
+    margin: 0;
+}
+
+.description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    margin: 0;
+    margin-top: 7px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.start--button {
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    color: #F5F7FB;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+.user--choice {
+    margin-top: 10%;
+}
+
+.categories {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    border: none;
+    margin-right: 20px;
+}
+
+.difficulty {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    border: none;
+}
+
+.deco {
+    position: absolute;
+}
+
+.deco--up {
+    top: 0;
+    right: 0;
+}
+
+.deco--down {
+    bottom: 0;
+    left: 0;
+}
+
+
+/*quiz screen*/
+.quiz--screen {
+    padding: 15%;
+}
+
+.panel {
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    color: #293264;
+    margin-bottom: 25px;
+}
+
+.timer {
+    margin-right: auto;
+}
+
+.timer--red {
+    color: #F8BCBC;
+}
+
+.score {
+
+}
+
+.questions {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+}
+
+.main--question {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.answers {
+    margin: 0;
+}
+
+.answer--button {
+    background: #F5F7FB;
+    height: 20px;
+    border: 1px solid #4D5B9E;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #293264;
+    margin-left: auto;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    margin-top:0;
+}
+
+.clicked {
+    background: #D6DBF5;
+    border: none;
+}
+
+.wrong {
+    background: #F8BCBC;
+    border: none;
+    color: #4D5B9E;
+}
+
+.correct {
+    background: #94D7A2;
+    border: none;
+}
+
+.blocked {
+    color: #94a2d3;
+    border-color:  #94a2d3;
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+    margin-top: 0;
+    border: solid #DBDEF0 0.5px;
+}
+
+.check--button {
+    background: #4D5B9E;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    color: #F5F7FB;
+    margin-left: calc(50% - 60px);
+    /*margin-bottom: 40px;*/
+}
+
+.check--screen--cont {
+    display: flex;
+    align-items: center;
+}
+
+.check--screen--caption {
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    margin: 0;
+    display: inline;
+}
+
+.next--round--button {
+    margin: 0;
+    margin-left: auto;
+}
+
+/*input name page*/
+.name--screen {
+    text-align: center;
+    margin-top: 50%;
+
+}
+
+.name--input {
+    height: 30px;
+    display: block;
+    margin-left: calc(50% - 75px);
+    margin-top: 10px
+}
+
+.name--button {
+    display: block;
+    margin-top: 20px;
+}
+
+/*score page*/
+.score--page {
+    text-align: center;
+    margin-top: calc(50% - 50px);
+}
+
+.score--text {
+    margin-bottom: 20%;
+}
+
+.winner--caption {
+    font-family: Karla, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 37px;
+    color: #94D7A2;
+
+}
+
+.score--caption {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.score--number {
+    font-family: Inter, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+.score--table {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.prev--best--score {
+
+}
+
+.cur--best--score {
+    color: #94D7A2;
+}
+
+.play--again--button {
+    margin: 0;
+    margin-top: 10%;
+}
